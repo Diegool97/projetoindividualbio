@@ -14,6 +14,7 @@ body {
   overflow: hidden;
   background-color: dodgerblue;
   padding: 20px 10px;
+  text-align: center;
 }
 
 .iniciotopo a {
@@ -26,6 +27,16 @@ body {
   line-height: 25px;
   border-radius: 4px;
 }
+
+.bordafinal {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+ }
 
 /* caso queira colocar a logo imagem */
 .iniciotopo img.logo {
@@ -85,12 +96,4 @@ div.desc {
     float: none;
   }
 }
-.bordafinal {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: black;
-   color: white;
-   text-align: center;
 }
